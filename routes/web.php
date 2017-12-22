@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('headers', 'HeaderController');
+Route::resource('footers', 'FooterController');
